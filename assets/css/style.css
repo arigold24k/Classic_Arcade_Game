@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+.street {
+    position: relative;
+    left: 30px;
+    font-family: 'Candal', sans-serif;
+    font-size: 100px;
+    font-style: italic;
+    -webkit-text-stroke: 0.1px #ed2121;
+    color: yellow;
+    text-shadow: -10px 10px 0px #ed2121;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.machine {
+    position: absolute;
+    left: -10px;
+    top: 350px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 100px;
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); /* IE 9 */
+    -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+    color: #ed2121;
+    margin: 0;
+    margin-top: -320px;
+    padding-left: 430px;
+    text-shadow: 1px 2px 0px yellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/streetfighter3.jpg);
+    height: auto;
+
+}
+
+.nametag {
+    position: absolute;
+    left: 53px;
+    top: -5px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nametag2 {
+    position: absolute;
+    left: 40px;
+    top: -5px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nametag3 {
+    position: absolute;
+    left: 35px;
+    top: -5px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nametag4 {
+    position: absolute;
+    left: 47px;
+    top: -5px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.health {
+    position: absolute;
+    left: 53px;
+    bottom: -3px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+}
+
+.health2 {
+    position: absolute;
+    left: 50px;
+    bottom: -3px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+}
+
+.health3 {
+    position: absolute;
+    left: 53px;
+    bottom: -3px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+}
+
+.health4 {
+    position: absolute;
+    left: 47px;
+    bottom: -3px;
+    font-weight: 800;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: 16px;
+}
+
+.charname {
+    display: block;
+}
+
+.bigtext {
+     font-family: "Times New Roman";
+     font-size: 20px;
+     color: lavender;
+     font-weight: bold;
+     margin-top: 20px;
+ }
+
+.smalltext {
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.bigtext1 {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: lavender;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.action {
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    color: black;
+
+}
+
+.msgbox {
+
+    background: black;
+    border: solid 2px red;
+    text-align: center;
+    width: 25%;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+img:hover {
+    border-color: black;
+    border: solid 2px;
+}
+
+.charimages {
+    display: inline;
+    position: relative;
+    height: 120px;
+    background: lightgrey;
+    width: 120px;
+    padding: 55px 15px 60px 15px;
+    border-radius: 4px;
+    border: solid 2px;
+    margin-top: -10px;
+}
+
+.mx {
+    margin-bottom: 10px;
+}
